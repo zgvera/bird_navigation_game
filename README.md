@@ -4,6 +4,11 @@
 
 This project creates a game where the user navigates a world as a bird. Be careful, you might collide onto randomly allocated obstacles (houses, clouds, or other birds) and can't move anymore!
 
+## Prerequisites
+
+* glut
+* OpenGL
+
 ## Compile
 
 g++ -Wno-deprecated -framework OpenGL -framework GLUT -framework Foundation -o bird SkyBoxBird.cpp tgaClass.cpp
